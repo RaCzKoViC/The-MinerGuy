@@ -70,19 +70,27 @@ Aktualna wersja to **1.32.0 — Tam, gdzie skończyłeś**: wczytana gra stawia 
 
 ## 🎬 Rozgrywka
 
-Krótkie klipy nagrane z prawdziwej gry (wersja 1.28.1) — bez makiet i montowanych animacji.
+Krótkie klipy nagrane z prawdziwej gry (wersja 1.32.0) — zaprogramowana rozgrywka w prawdziwym oknie gry, bez makiet i montowanych animacji.
 
-| Ekran tytułowy | Kopanie tuneli |
+| Ekran tytułowy | Kopanie w Kryształowej Grocie |
 |---|---|
-| ![Animowane logo i żywe menu główne](docs/gifs/menu.gif) | ![Kopanie tunelu tytanowym kilofem i oświetlanie go pochodniami](docs/gifs/mining.gif) |
+| ![Animowane logo i żywe menu główne](docs/gifs/menu.gif) | ![Kopanie tunelu do Kryształowej Groty tytanowym kilofem i oświetlanie go pochodniami](docs/gifs/mining.gif) |
 
-| Budowa domu | Crafting przy stole warsztatowym |
+| Budowa domu | Wytwarzanie i naprawa |
 |---|---|
-| ![Budowa małego drewnianego domu blok po bloku](docs/gifs/building.gif) | ![Wybieranie receptur i wytwarzanie przedmiotów przy stole warsztatowym](docs/gifs/crafting.gif) |
+| ![Budowa małego drewnianego domu blok po bloku](docs/gifs/building.gif) | ![Wytwarzanie werdanitowego kilofa i ostrza przy kuźni polowej, potem naprawa zużytego kilofa](docs/gifs/crafting.gif) |
 
-| Walka ze strażnikiem | Burza |
+| Walka ze strażnikiem | Sztorm na plaży |
 |---|---|
-| ![Walka z Korzeńcem, pradawnym strażnikiem lasu](docs/gifs/boss-fight.gif) | ![Sztorm z deszczem i uderzeniem pioruna](docs/gifs/storm.gif) |
+| ![Walka z Korzeńcem, pradawnym strażnikiem lasu](docs/gifs/boss-fight.gif) | ![Sztorm na plaży: deszcz, fale zalewające brzeg i uderzenia piorunów](docs/gifs/storm.gif) |
+
+| Lewiatan na morzu | Zlecenia w osadzie |
+|---|---|
+| ![Wypłynięcie łódką na morze, zadęcie w muszlę i walka z Lewiatanem z łodzi](docs/gifs/ocean.gif) | ![Przyjęcie zlecenia od kowala w osadzie i oddanie go za nagrodę](docs/gifs/settlement.gif) |
+
+| Lot na skrzydłach | Gra we dwoje |
+|---|---|
+| ![Lot nad koronami drzew na skrzydłach burzy](docs/gifs/flight.gif) | ![Drugi gracz dołącza przez sieć i oboje kopią w dół ramię w ramię](docs/gifs/coop.gif) |
 
 ## 📸 Zrzuty ekranu
 

@@ -69,19 +69,27 @@ The current version is **1.32.0 — Right where you left off**: a loaded game pu
 
 ## 🎬 Gameplay
 
-Short clips recorded from the real game (version 1.28.1) — no mock-ups, no edited animations.
+Short clips recorded from the real game (version 1.32.0) — scripted play in the actual game window, no mock-ups, no edited animations.
 
-| Title screen | Mining tunnels |
+| Title screen | Mining a crystal grotto |
 |---|---|
-| ![Animated logo and the living main menu](docs/gifs/menu.gif) | ![Digging a tunnel with a titanium pickaxe and lighting it with torches](docs/gifs/mining.gif) |
+| ![Animated logo and the living main menu](docs/gifs/menu.gif) | ![Digging a tunnel into a crystal grotto with a titanium pickaxe and lighting it with torches](docs/gifs/mining.gif) |
 
-| Building a house | Crafting at a workbench |
+| Building a house | Crafting and repairs |
 |---|---|
-| ![Building a small wooden house block by block](docs/gifs/building.gif) | ![Choosing recipes and crafting items at a workbench](docs/gifs/crafting.gif) |
+| ![Building a small wooden house block by block](docs/gifs/building.gif) | ![Crafting a verdanite pickaxe and blade at a field forge, then repairing a worn pickaxe](docs/gifs/crafting.gif) |
 
-| Guardian fight | Thunderstorm |
+| Guardian fight | Tempest on the beach |
 |---|---|
-| ![Fighting the Rootwarden, the ancient forest guardian](docs/gifs/boss-fight.gif) | ![A Tempest event with rain and a lightning strike](docs/gifs/storm.gif) |
+| ![Fighting the Rootwarden, the ancient forest guardian](docs/gifs/boss-fight.gif) | ![A Tempest on the beach: rain, waves flooding the shore and lightning strikes](docs/gifs/storm.gif) |
+
+| The Leviathan at sea | Village requests |
+|---|---|
+| ![Rowing out to sea, blowing the conch and fighting the Leviathan from the boat](docs/gifs/ocean.gif) | ![Taking a request from the village blacksmith and handing it in for a reward](docs/gifs/settlement.gif) |
+
+| Flying with wings | Co-op |
+|---|---|
+| ![Flying over the treetops with storm wings](docs/gifs/flight.gif) | ![A second player joins over the network and both dig down side by side](docs/gifs/coop.gif) |
 
 ## 📸 Screenshots
 
