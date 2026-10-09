@@ -51,7 +51,7 @@
 
 Wszystko, co widzisz i słyszysz — grafika pixel-art, czcionki, efekty dźwiękowe i muzyka — jest generowane przez kod gry. Repozytorium nie zawiera cudzych assetów.
 
-Aktualna wersja to **1.34.0 — Czytelny świat**: wrogowie widoczni w ciemności (paski zdrowia, błysk oczu), strzałki do strażnika, osadników z zadaniem i miejsca śmierci, na mapie pinezki, znacznik śmierci i odkryte miejsca, podpowiedzi z Twoimi klawiszami lub przyciskami pada, Dziennik z licznikami i celami po skrzydłach, historia komunikatów i strona „Sterowanie”. Wcześniej: **1.33.1 — Uczciwe zasady** (koniec z lukami w pieniądzach, bronie zgodne z opisem, fabryki przy każdym graczu) i **1.33.0 — Lekka gra** (presety grafiki, płynne dołączanie w co-opie). Zobacz [historię wydań](CHANGELOG.md) (po angielsku).
+Aktualna wersja to **1.35.0 — Kuźnia ostrza**: na każdym etapie wyraźnie najlepsza broń w każdej klasie, magia, którą da się rzucać bez przerwy, zestaw strzelca i nowe strzały, statusy i modyfikatory, które mają znaczenie, uczciwe przekuwanie, zepsute narzędzia do naprawy, głębsze walki ze strażnikami, stwory z cechami, zastosowanie dla każdego materiału i szczęśliwsze skrzynie. Wcześniej: **1.34.0 — Czytelny świat** (wrogowie widoczni w ciemności, strzałki do celów, mapa, która pamięta, podpowiedzi z Twoimi klawiszami) i **1.33.1 — Uczciwe zasady**. Zobacz [historię wydań](CHANGELOG.md) (po angielsku).
 
 ## ✨ Funkcje
 

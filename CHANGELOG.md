@@ -2,6 +2,59 @@
 
 This file records the major player-facing milestones. Detailed behavior and implementation boundaries are documented in [the game specification](docs/SPECIFICATION.md) and [architecture guide](docs/ARCHITECTURE.md).
 
+## 1.35.0 — Blade forge
+
+- **A weapon ladder that makes sense.** At every stage the weapon the crafting path gives you is the best
+  all-rounder, and everything else you can own there is a side-grade within 10% of it with its own character:
+  silver is fast with critical hits, tungsten and cobalt hit hard with knockback, titanium swings fastest. The
+  Leviathan's trident and anchor are now siblings (the anchor's blow sends out a short shockwave), the Core Blade
+  sits just below the aurorite blade, and the Echo Blade and Echo Bow need two storm cores.
+- **Magic you can keep casting.** Spells cost 2–3 energy. While casting, energy comes back at 1.5 + 3% of your
+  maximum per second, and at full speed 0.7 s after the last spell. The prismatic set adds +2 energy per second. A
+  staff now keeps about two thirds of its damage when you cast nonstop (it was 5–10%). The new **Aurorite Staff**
+  fills the aurorite stage, and the Book of Frost Needles needs a rootheart.
+- **Ranged gets its own gear.** The aurorite set is the marksman set: +15% ranged damage and a 25% chance to keep
+  each arrow or bullet. New **Abyssal Arrows** (pierce two enemies) and **Aurorite Arrows** (gently home in), plus
+  the **Leviathan Eye** (+10% ranged damage). The Rootwood Bow fires a plain two-arrow volley.
+- **Armour always leaves a scratch.** Every hit deals at least 15% of its damage; falls and drowning ignore armour.
+  Enemies hit a little harder to match.
+- **Statuses that matter.** Burning, poison and shock from your weapons grow with the hit (12% of its damage per
+  second) and stack twice. Guardians now resist the statuses they used to ignore (half the effect), and only their
+  own element keeps them immune. The guardian bar shows what is on it.
+- **Modifiers for every class.** New ranged modifiers **Accurate** and **Thrifty** (20% of shots use no ammo) and
+  magic ones **Wise** (−20% energy) and **Piercing** (+1 pierce). Light, Strong and Heavy are worth having now.
+- **Fair reforging.** A paid reforge never rolls a bad modifier, and every reforge that misses the best one makes
+  it more likely next time. The blacksmith shows the chance.
+- **Broken, not lost.** A worn-out tool or weapon stays as **Broken**, with its modifier, until you repair it.
+  Repairs take ordinary materials before rare drops: the Echo Blade costs 5 voidite bars instead of 10 echo shards.
+- **Guardian fights with depth.**
+  - The Rootwarden's roots stay standing for a while; cut all three to stagger it.
+  - A burning beam links the Prism Warden's shards and moves from pair to pair.
+  - The Ember Colossus is tougher (14,000 health). Its chest glows after every slam and takes ×1.5 damage, and
+    below 25% its core is exposed while the magma floor rises.
+  - Drones tethered to the Core Heart halve the damage it takes, and its first phase has two new attacks.
+  - The awakened guardians show where their charges will land.
+  - Every guardian grows a little angrier below 25% health.
+- **Creatures with traits.** Magma crawlers leave burning trails, sea turtles and reef crabs have shells, void
+  stalkers blink behind you, blight crawlers split and shade crawlers climb walls.
+- **Difficulty you feel in combat.** On Hard, enemies deal 20% more damage and guardians rage as in Challenge. On
+  Mild, guardians have 15% less health.
+- **Every material has a use.**
+  - Biome guardian trophies make elder accessories and wall trophies.
+  - Ink sacs make books and the **Night Vision Potion**, and glowing barbels brew the **Glow Elixir**.
+  - Golden roaches become **Golden Bait**, and old boots give hide.
+  - Thorns make the **Thorn Barrier** and the **Thorn Shield**, and glowing beetles a jar lamp.
+  - New accessories: **Platinum Band**, **Titanium Thorn Shield**, **Night Sea Necklace**, **Eel Skin Gloves**,
+    **Blood Talisman**, **Traveler's Belt** and **Captain's Gear**.
+- **Accessories with character.** The **Sextant** reads the sea: the depth of the floor, the nearest wreck and the
+  Leviathan's deep. Every Challenge trophy has its own effect; the **Core Shard** saves you from a lethal hit once
+  every 3 minutes.
+- **Luckier chests.** Chests never hold items with bad modifiers, and shallow chests carry their biome's loot.
+  4% of chests hold a lucky find: the **Golden Horseshoe**, triple coins or a good modifier. Urns sometimes hide a
+  gem.
+- **Co-op:** the game content changed, so everyone needs 1.35.0 to play together. Saves from earlier versions load
+  as before.
+
 ## 1.34.0 — Readable world
 
 - **See the danger.** A damaged enemy shows a thin health bar for a few seconds, every enemy has a soft outline, and
