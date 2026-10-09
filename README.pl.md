@@ -51,7 +51,7 @@
 
 Wszystko, co widzisz i słyszysz — grafika pixel-art, czcionki, efekty dźwiękowe i muzyka — jest generowane przez kod gry. Repozytorium nie zawiera cudzych assetów.
 
-Aktualna wersja to **1.32.0 — Tam, gdzie skończyłeś**: wczytana gra stawia postać **dokładnie tam, gdzie stała** przy zapisie (nawet w łódce), a menu główne ma przycisk **Kontynuuj** do ostatniego zapisu. Wcześniej: **1.31.0 — Uczciwa kuźnia** (zużyte narzędzia i bronie **naprawiasz zamiast je tracić**, narzędzia wytrzymują ok. 2× dłużej, klasyczne metale nie omijają już strażników), **1.30.0 — Wspólna fabryka** (w co-opie **całą fabrykę prowadzi gospodarz**, strażnicy dają łup **każdemu graczowi**) i **1.29.1 — Bezpieczny start** (gra **aktualizuje się sama z menu głównego**). Zobacz [historię wydań](CHANGELOG.md) (po angielsku).
+Aktualna wersja to **1.32.1** — w pełni angielska wersja **1.32.0 — Tam, gdzie skończyłeś**: wczytana gra stawia postać **dokładnie tam, gdzie stała** przy zapisie (nawet w łódce), a menu główne ma przycisk **Kontynuuj** do ostatniego zapisu. Wcześniej: **1.31.0 — Uczciwa kuźnia** (zużyte narzędzia i bronie **naprawiasz zamiast je tracić**, narzędzia wytrzymują ok. 2× dłużej, klasyczne metale nie omijają już strażników), **1.30.0 — Wspólna fabryka** (w co-opie **całą fabrykę prowadzi gospodarz**, strażnicy dają łup **każdemu graczowi**) i **1.29.1 — Bezpieczny start** (gra **aktualizuje się sama z menu głównego**). Zobacz [historię wydań](CHANGELOG.md) (po angielsku).
 
 ## ✨ Funkcje
 
@@ -70,7 +70,7 @@ Aktualna wersja to **1.32.0 — Tam, gdzie skończyłeś**: wczytana gra stawia 
 
 ## 🎬 Rozgrywka
 
-Krótkie klipy nagrane z prawdziwej gry (wersja 1.32.0) — zaprogramowana rozgrywka w prawdziwym oknie gry, bez makiet i montowanych animacji.
+Krótkie klipy nagrane z prawdziwej gry (wersja 1.32.1) — zaprogramowana rozgrywka w prawdziwym oknie gry, bez makiet i montowanych animacji.
 
 | Ekran tytułowy | Kopanie w Kryształowej Grocie |
 |---|---|
@@ -227,6 +227,6 @@ Zbudowane z użyciem [MonoGame](https://monogame.net/) i [.NET](https://dotnet.m
 
 ## Status projektu
 
-Wersja **1.32.0** jest grywalna od początku aż po zawartość po finale, a gra jest aktywnie rozwijana. Nowe wersje są ogłaszane na stronie [Releases](https://github.com/RaCzKoViC/The-MinerGuy/releases) i w pliku [CHANGELOG.md](CHANGELOG.md).
+Wersja **1.32.1** jest grywalna od początku aż po zawartość po finale, a gra jest aktywnie rozwijana. Nowe wersje są ogłaszane na stronie [Releases](https://github.com/RaCzKoViC/The-MinerGuy/releases) i w pliku [CHANGELOG.md](CHANGELOG.md).
 
 <p align="center"><sub>© 2026 Maciej Raczkowski (RaCzKoViC). Wszelkie prawa zastrzeżone.</sub></p>

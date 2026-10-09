@@ -37,7 +37,7 @@
     "f7.t": "Klimat", "f7.d": "Słońce i cienie, bloom, promienie światła, kaustyki pod wodą, falowanie powietrza nad magmą, mgła w jaskiniach i świetliki.",
     "f8.t": "Graj po swojemu", "f8.d": "Klawiatura i mysz albo pad XInput, zmiana klawiszy, skala interfejsu do 200%, polski i angielski.",
     "nav.gameplay": "Rozgrywka",
-    "gp.title": "Rozgrywka", "gp.sub": "Krótkie klipy nagrane z prawdziwej gry, wersja 1.32.0.",
+    "gp.title": "Rozgrywka", "gp.sub": "Krótkie klipy nagrane z prawdziwej gry, wersja 1.32.1.",
     "gp.clip1": "Ekran tytułowy", "gp.clip2": "Kopanie w Kryształowej Grocie",
     "gp.clip3": "Budowa domu", "gp.clip4": "Wytwarzanie i naprawa",
     "gp.clip5": "Walka ze strażnikiem", "gp.clip6": "Sztorm na plaży",

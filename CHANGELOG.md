@@ -2,6 +2,23 @@
 
 This file records the major player-facing milestones. Detailed behavior and implementation boundaries are documented in [the game specification](docs/SPECIFICATION.md) and [architecture guide](docs/ARCHITECTURE.md).
 
+## 1.32.1 — English all the way
+
+- **The English version no longer shows Polish text.** About 120 texts that were still Polish are translated:
+  guardian names on the health bar and their "awakens" and "defeated" messages, achievements, settler quests,
+  dialogue, rewards and arrivals, expeditions, settlement ranks, pickup pop-ups ("Stone (19)"), miner level and
+  statistics, Journal goals, death drops, fishing, the world map, loading screens, difficulty descriptions and
+  co-op messages ("Ola joins the game!"). Many of them were sentences put together in code, which could never be
+  translated; they now use translation templates.
+- English quotation marks and the minus sign were drawn as "?" because the game font did not have them. A test
+  now checks that the font can draw every character of every text.
+- In Polish, a guardian's defeat now reads "Pokonano: <name>!" (it used to be "<name> został pokonany!", which
+  was wrong for female guardians such as Aurora).
+- All ten gameplay GIFs are re-recorded in English on this version (menu, mining, building, crafting, guardian
+  fight, storm, ocean, settlement, flight, co-op).
+- For developers: `MINERGUY_LANG_AUDIT=<file>` lists every text shown in Polish while playing in another language,
+  and `MINERGUY_SELFTEST_LANG=en` runs the in-window self-test in English.
+
 ## 1.32.0 — Right where you left off
 
 - **A saved game continues exactly where you stopped.** Loading a world puts your character back on the very spot
