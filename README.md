@@ -226,7 +226,7 @@ Built with [MonoGame](https://monogame.net/) and [.NET](https://dotnet.microsoft
 
 ## Project status
 
-Version **1.33.1** is playable from the opening through post-finale progression, and the game is under active development. New versions are announced on the [Releases page](https://github.com/RaCzKoViC/The-MinerGuy/releases) and in [CHANGELOG.md](CHANGELOG.md).
+Version **1.34.0** is playable from the opening through post-finale progression, and the game is under active development. New versions are announced on the [Releases page](https://github.com/RaCzKoViC/The-MinerGuy/releases) and in [CHANGELOG.md](CHANGELOG.md).
 
 ## Original work
 

@@ -227,6 +227,6 @@ Zbudowane z użyciem [MonoGame](https://monogame.net/) i [.NET](https://dotnet.m
 
 ## Status projektu
 
-Wersja **1.33.1** jest grywalna od początku aż po zawartość po finale, a gra jest aktywnie rozwijana. Nowe wersje są ogłaszane na stronie [Releases](https://github.com/RaCzKoViC/The-MinerGuy/releases) i w pliku [CHANGELOG.md](CHANGELOG.md).
+Wersja **1.34.0** jest grywalna od początku aż po zawartość po finale, a gra jest aktywnie rozwijana. Nowe wersje są ogłaszane na stronie [Releases](https://github.com/RaCzKoViC/The-MinerGuy/releases) i w pliku [CHANGELOG.md](CHANGELOG.md).
 
 <p align="center"><sub>© 2026 Maciej Raczkowski (RaCzKoViC). Wszelkie prawa zastrzeżone.</sub></p>

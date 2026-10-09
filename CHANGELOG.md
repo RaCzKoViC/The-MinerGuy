@@ -2,6 +2,34 @@
 
 This file records the major player-facing milestones. Detailed behavior and implementation boundaries are documented in [the game specification](docs/SPECIFICATION.md) and [architecture guide](docs/ARCHITECTURE.md).
 
+## 1.34.0 — Readable world
+
+- **See the danger.** A damaged enemy shows a thin health bar for a few seconds, every enemy has a soft outline, and
+  in the dark hostile enemies get a faint rim light and glinting eyes (Settings → Game → "Highlight enemies").
+- **Know where to go.** Arrows at the screen edge point to the active guardian, settlers with a request and the spot
+  where you died, with the distance.
+- **A map that remembers.** A death marker shows what you dropped and when it vanishes; up to 20 named pins
+  (right-click the map); altars, vaults, sanctuaries, wrecks, crystal grottos and ruins are marked when you first see
+  them; a legend explains the icons. Pins, finds and the death marker also show on the minimap.
+- **Hints that match your controls.** Every key hint shows the key you actually bound — or the pad button when you
+  play with a controller — and tips point at the hotbar slot that really holds the tool.
+- **Tips at the right moment.** Urgent tips (night falling, low health, running out of air) come first, the
+  night warning arrives earlier and repeats once if missed, and tips wait while a panel is open. New tips explain
+  platforms, combat, interacting, skill points and energy.
+- **Messages you can read.** [L] opens the last 40 messages; story, event, guardian and quest lines stay longer;
+  log lines and the HUD numbers have a dark backing; achievement toasts wait until panels are closed.
+- **Controls page.** The pause menu (and "How to play") shows every action with its current key and pad button, with
+  a shortcut to rebinding.
+- **A Journal that leads all the way.** Goals are split into the main path and side goals, show have/need counters
+  ("Rustite bar 3/8"), and pin their recipe when clicked. The first guardian now comes before building a house, and
+  the Journal continues past the wings: biome guardians, vaults, sanctuaries, an industry chapter (power, diesel,
+  pipes, automation), the City rank, Echo, purification and Challenge.
+- **19 new achievements**, among them the awakened guardians, wings, all twelve guardians, events survived,
+  industry, purification, reforging and repairing.
+- **Sounds come from somewhere.** Enemy, guardian, explosion and door sounds are panned and fade with distance.
+- Text you type yourself — map pins, signs, portal names and chat — is always shown exactly as written (a pin named
+  "Kopalnia" no longer turned into "Mine" in English).
+
 ## 1.33.1 — Fair rules
 
 - **Money means something again.**
