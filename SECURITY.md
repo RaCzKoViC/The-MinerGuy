@@ -6,7 +6,7 @@ Only the latest release published on [GitHub Releases](https://github.com/RaCzKo
 
 | Version | Supported |
 |---|---|
-| Latest release (currently 1.32.x) | ✅ |
+| Latest release (currently 1.33.x) | ✅ |
 | Older releases | ❌ |
 
 ## Reporting a vulnerability

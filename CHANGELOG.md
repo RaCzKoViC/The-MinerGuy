@@ -2,6 +2,27 @@
 
 This file records the major player-facing milestones. Detailed behavior and implementation boundaries are documented in [the game specification](docs/SPECIFICATION.md) and [architecture guide](docs/ARCHITECTURE.md).
 
+## 1.33.0 — Light game
+
+- **Graphics quality presets.** Settings → Graphics starts with a quality selector: **Low** (basic lighting and
+  character shadows, half the particles — for integrated graphics), **Medium** (no lamp shadows, environment
+  shaders or deep fog, fewer particles) and **High** (every effect, as before). Changing any single switch shows
+  **Custom**. Hovering the selector names the detected graphics card. Existing settings are kept as they are.
+- **A sensible preset on the first start.** A new installation picks the preset from the graphics card: Low for
+  older integrated graphics and software renderers, Medium for newer integrated graphics (Iris Xe, Ryzen APUs,
+  GeForce MX), High for dedicated cards.
+- **A precise FPS counter.** Settings → "Show FPS" now shows real frames per second, the average frame time and
+  the slowest frame of the last half second.
+- **No freeze when someone joins.** When a guest joins a big co-op world, the host's game no longer stops: the
+  longest step on the host's game thread is now 1–3 ms instead of about 200 ms on a Huge world. The world is
+  copied gradually and packed in the background, and everything that changes meanwhile — blocks, chests, signs,
+  drops, chat — still reaches the new player.
+- **New worlds start with their water at rest.** World generation lets liquids settle much longer, so right after
+  creation 5–6 times less water keeps flowing (less work for the host, far fewer changes sent to co-op guests).
+  Creating a world takes a moment longer once (Small about 1 s, Huge about 8 s). A seed still gives the same world.
+- For developers: `tools\gpubench.ps1` measures real frame and GPU time per preset and per effect;
+  docs/PERFORMANCE.md has the results and the new co-op join measurements.
+
 ## 1.32.1 — English all the way
 
 - **The English version no longer shows Polish text.** About 120 texts that were still Polish are translated:
