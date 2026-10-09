@@ -2,6 +2,34 @@
 
 This file records the major player-facing milestones. Detailed behavior and implementation boundaries are documented in [the game specification](docs/SPECIFICATION.md) and [architecture guide](docs/ARCHITECTURE.md).
 
+## 1.33.1 — Fair rules
+
+- **Money means something again.**
+  - A stack is sold as a whole: 50 bullets from one rustite bar now bring 10 nuggets, not 50.
+  - All shop discounts together (mood, reputation, Haggling) are capped at 40%, and nothing can be bought for less
+    than it sells for — geodes now cost at least 76.
+  - The Transmutation Crucible gives back 75% of the ingredients (less for worn items) and asks before taking an
+    item with a good modifier apart, so it is no longer a free reforge or a free repair.
+- **One meal at a time.** A better meal replaces a weaker one and food heals over 8 seconds, so eating can no
+  longer out-heal potions or stack three meal buffs.
+- **Weapons do what they say.** The Void Bow's arrows pierce three enemies, the Pulsite Bow fires three arrows, the
+  Aurora Bow shoots aurora beams, the Echo Bow's arrows leave an echo, the Storm Staff's lightning pierces, the
+  Brood Staff's spores home again, the Void Rifle's bullets pierce and the Tide Tome's orbs bounce. The Harpoon Gun
+  fires a piercing harpoon under water. Burst guns and the Root Bow's second arrow use the full critical chance.
+- **Tools are tools.** Pickaxes, axes and hammers deal half damage to enemies, and mining-speed bonuses no longer
+  speed up combat swings (the pulsite pickaxe was as strong as the pulsite sword).
+- **Factories run for everyone.** Machines, power, pipes, sensors and wiring now run around every player, not only
+  the host — a guest's base keeps working when the host walks away, and factories work on dedicated servers.
+  Launch pads, teleporters and pressure plates now work for guests too.
+- **Wires switch machines.** A wire pulse turns pumps, rigs, generators, the refinery and electric lamps on and off,
+  and opens or closes electric valves and circuit breakers.
+- **Generators burn fuel only under load,** and the refinery needs 3 kW of power while it is refining (a wood or
+  coal generator is enough). **Existing refineries stop until they are connected to power.**
+- **A guardian that leaves undefeated gives its summon item back** (when everyone fell or walked away).
+- On Large and Huge worlds the surface is no longer labelled "Sky". The death screen is translated, the stone
+  pickaxe tip counts copper and iron pickaxes, and the trash says what it deletes.
+- **Co-op:** the network protocol changed, so everyone needs 1.33.1 to play together.
+
 ## 1.33.0 — Light game
 
 - **Graphics quality presets.** Settings → Graphics starts with a quality selector: **Low** (basic lighting and

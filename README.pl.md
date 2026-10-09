@@ -51,7 +51,7 @@
 
 Wszystko, co widzisz i słyszysz — grafika pixel-art, czcionki, efekty dźwiękowe i muzyka — jest generowane przez kod gry. Repozytorium nie zawiera cudzych assetów.
 
-Aktualna wersja to **1.33.0 — Lekka gra**: **presety jakości grafiki** (niska, średnia, wysoka) z rozsądnym wyborem dla Twojej karty przy pierwszym uruchomieniu, dokładny licznik FPS, **brak przycięcia u gospodarza, gdy znajomy dołącza do dużego świata co-op**, i nowe światy, w których woda od początku stoi. Wcześniej: **1.32 — Tam, gdzie skończyłeś** (wczytana gra stawia postać **dokładnie tam, gdzie stała**, przycisk **Kontynuuj** i angielska wersja bez polskich napisów), **1.31.0 — Uczciwa kuźnia** (zużyte narzędzia **naprawiasz zamiast je tracić**) i **1.30.0 — Wspólna fabryka** (w co-opie **całą fabrykę prowadzi gospodarz**). Zobacz [historię wydań](CHANGELOG.md) (po angielsku).
+Aktualna wersja to **1.33.1 — Uczciwe zasady** (koniec z lukami w pieniądzach, bronie działają zgodnie z opisem, fabryki działają przy każdym graczu), oparta na **1.33.0 — Lekka gra**: **presety jakości grafiki** (niska, średnia, wysoka) z rozsądnym wyborem dla Twojej karty przy pierwszym uruchomieniu, dokładny licznik FPS, **brak przycięcia u gospodarza, gdy znajomy dołącza do dużego świata co-op**, i nowe światy, w których woda od początku stoi. Wcześniej: **1.32 — Tam, gdzie skończyłeś** (wczytana gra stawia postać **dokładnie tam, gdzie stała**, przycisk **Kontynuuj** i angielska wersja bez polskich napisów), **1.31.0 — Uczciwa kuźnia** (zużyte narzędzia **naprawiasz zamiast je tracić**) i **1.30.0 — Wspólna fabryka** (w co-opie **całą fabrykę prowadzi gospodarz**). Zobacz [historię wydań](CHANGELOG.md) (po angielsku).
 
 ## ✨ Funkcje
 
@@ -227,6 +227,6 @@ Zbudowane z użyciem [MonoGame](https://monogame.net/) i [.NET](https://dotnet.m
 
 ## Status projektu
 
-Wersja **1.33.0** jest grywalna od początku aż po zawartość po finale, a gra jest aktywnie rozwijana. Nowe wersje są ogłaszane na stronie [Releases](https://github.com/RaCzKoViC/The-MinerGuy/releases) i w pliku [CHANGELOG.md](CHANGELOG.md).
+Wersja **1.33.1** jest grywalna od początku aż po zawartość po finale, a gra jest aktywnie rozwijana. Nowe wersje są ogłaszane na stronie [Releases](https://github.com/RaCzKoViC/The-MinerGuy/releases) i w pliku [CHANGELOG.md](CHANGELOG.md).
 
 <p align="center"><sub>© 2026 Maciej Raczkowski (RaCzKoViC). Wszelkie prawa zastrzeżone.</sub></p>
