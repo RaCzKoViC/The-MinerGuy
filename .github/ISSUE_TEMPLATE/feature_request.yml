@@ -1,0 +1,44 @@
+name: 💡 Feature request
+description: Suggest an idea, a new item, a quality-of-life change or a balance tweak.
+title: "[Idea]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea! Please check the [existing issues](https://github.com/RaCzKoViC/The-MinerGuy/issues) first. You can write in English or Polish.
+        Please describe ideas in your own words — don't paste assets, text or designs copied from other games.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Exploration and world generation
+        - Mining, building and crafting
+        - Combat, enemies and guardians
+        - Settlements and settlers
+        - Automation and industry
+        - Co-op multiplayer
+        - User interface and controls
+        - Graphics and audio
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would it solve?
+      description: What is missing, annoying or could be more fun?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: How should it work in the game?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you considered

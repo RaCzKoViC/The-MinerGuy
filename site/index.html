@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The MinerGuy — 2D pixel-art sandbox survival game for Windows</title>
+  <meta name="description" content="Dig deep, build big and survive the guardians. The MinerGuy is a 2D pixel-art sandbox survival, crafting and automation game for Windows with co-op for up to 8 players.">
+  <meta name="theme-color" content="#14110f">
+  <link rel="canonical" href="https://raczkovic.github.io/The-MinerGuy/">
+  <link rel="icon" type="image/png" href="assets/icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="The MinerGuy — dig deep, build big, survive the guardians">
+  <meta property="og:description" content="2D pixel-art sandbox survival, crafting and automation game for Windows. Co-op for up to 8 players. Free test builds.">
+  <meta property="og:url" content="https://raczkovic.github.io/The-MinerGuy/">
+  <meta property="og:image" content="https://raczkovic.github.io/The-MinerGuy/assets/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#top"><img src="assets/icon.png" alt="" width="32" height="32"><span>The MinerGuy</span></a>
+    <nav>
+      <a href="#features" data-i18n="nav.features">Features</a>
+      <a href="#gameplay" data-i18n="nav.gameplay">Gameplay</a>
+      <a href="#screenshots" data-i18n="nav.screens">Screenshots</a>
+      <a href="#coop" data-i18n="nav.coop">Co-op</a>
+      <a href="#requirements" data-i18n="nav.req">Requirements</a>
+      <a href="https://github.com/RaCzKoViC/The-MinerGuy" rel="noopener">GitHub</a>
+      <button class="lang" id="lang" type="button" aria-label="Switch language">PL</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <img class="logo" src="assets/logo.png" alt="The MinerGuy logo" width="384" height="384">
+        <h1 data-i18n="hero.title">Dig deep. Build big.<br>Survive the guardians.</h1>
+        <p class="lead" data-i18n="hero.lead">A 2D pixel-art sandbox of mining, crafting, settlements and automation — alone or in co-op with up to 8 friends.</p>
+        <div class="cta">
+          <a id="download" class="btn btn-play" href="https://github.com/RaCzKoViC/The-MinerGuy/releases/latest" rel="noopener">
+            <span class="btn-icon" aria-hidden="true">▶</span>
+            <span><b data-i18n="cta.play">Play / Download</b><small id="dl-meta" data-i18n="cta.meta">Free test build · Windows 10/11 x64</small></span>
+          </a>
+          <a class="btn btn-alt" href="https://github.com/RaCzKoViC/The-MinerGuy" rel="noopener">
+            <svg viewBox="0 0 16 16" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+            <span data-i18n="cta.github">View on GitHub</span>
+          </a>
+        </div>
+        <p class="alt-dl"><span data-i18n="cta.portable">Prefer no installer?</span> <a id="zip" href="https://github.com/RaCzKoViC/The-MinerGuy/releases/latest" rel="noopener" data-i18n="cta.zip">Get the portable .zip</a></p>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Game at a glance">
+      <div><b>7</b><span data-i18n="stat.guardians">major guardians</span></div>
+      <div><b>8</b><span data-i18n="stat.players">players in co-op</span></div>
+      <div><b>100s</b><span data-i18n="stat.items">of items &amp; recipes</span></div>
+      <div><b>1000</b><span data-i18n="stat.skills">skill levels</span></div>
+    </section>
+
+    <section id="features" class="section">
+      <h2 data-i18n="features.title">What awaits underground</h2>
+      <div class="grid features">
+        <article class="card"><div class="ico">🌍</div><h3 data-i18n="f1.t">Procedural worlds</h3><p data-i18n="f1.d">Every seed builds a new world: surface, crystal caverns, magma-filled deep mines, oceans with reefs and wrecks, all the way down to the World Core.</p></article>
+        <article class="card"><div class="ico">⛏️</div><h3 data-i18n="f2.t">Mine, build, craft</h3><p data-i18n="f2.d">Hundreds of items and recipes, a searchable recipe book, recipe tracking, furniture, slopes and item modifiers.</p></article>
+        <article class="card"><div class="ico">🐉</div><h3 data-i18n="f3.t">Guardians &amp; events</h3><p data-i18n="f3.d">Seven major guardians, biome guardians, invasions, storms, eclipses — and a world that awakens after the finale.</p></article>
+        <article class="card"><div class="ico">🏘️</div><h3 data-i18n="f4.t">Settlements</h3><p data-i18n="f4.d">Settlers move into the homes you build, open shops, give quests, raise your settlement rank and go on expeditions.</p></article>
+        <article class="card"><div class="ico">⚙️</div><h3 data-i18n="f5.t">Automation &amp; industry</h3><p data-i18n="f5.d">Wiring, logic gates, sensors, minecarts, pipelines, oil refineries, generators, batteries and power grids.</p></article>
+        <article class="card"><div class="ico">🌊</div><h3 data-i18n="f6.t">Ocean depths</h3><p data-i18n="f6.d">Dive with proper gear, sail boats, meet sea creatures and face the Leviathan.</p></article>
+        <article class="card"><div class="ico">💡</div><h3 data-i18n="f7.t">Atmosphere</h3><p data-i18n="f7.d">Sunlight and shadows, bloom, god rays, underwater caustics, heat haze, cave fog and fireflies.</p></article>
+        <article class="card"><div class="ico">🎮</div><h3 data-i18n="f8.t">Play your way</h3><p data-i18n="f8.d">Keyboard and mouse or XInput controller, rebindable keys, UI scale up to 200%, English and Polish.</p></article>
+      </div>
+    </section>
+
+    <section id="gameplay" class="section">
+      <h2 data-i18n="gp.title">Gameplay</h2>
+      <p class="sub" data-i18n="gp.sub">Short clips recorded from the real game, version 1.28.1.</p>
+      <div class="clips">
+        <figure><img loading="lazy" src="https://raw.githubusercontent.com/RaCzKoViC/The-MinerGuy/main/docs/gifs/menu.gif" alt="Animated logo and the living main menu" width="800" height="450"><figcaption data-i18n="gp.clip1">Title screen</figcaption></figure>
+        <figure><img loading="lazy" src="https://raw.githubusercontent.com/RaCzKoViC/The-MinerGuy/main/docs/gifs/mining.gif" alt="Digging a tunnel with a titanium pickaxe and lighting it with torches" width="800" height="450"><figcaption data-i18n="gp.clip2">Mining tunnels</figcaption></figure>
+        <figure><img loading="lazy" src="https://raw.githubusercontent.com/RaCzKoViC/The-MinerGuy/main/docs/gifs/building.gif" alt="Building a small wooden house block by block" width="800" height="450"><figcaption data-i18n="gp.clip3">Building a house</figcaption></figure>
+        <figure><img loading="lazy" src="https://raw.githubusercontent.com/RaCzKoViC/The-MinerGuy/main/docs/gifs/crafting.gif" alt="Choosing recipes and crafting items at a workbench" width="800" height="450"><figcaption data-i18n="gp.clip4">Crafting at a workbench</figcaption></figure>
+        <figure><img loading="lazy" src="https://raw.githubusercontent.com/RaCzKoViC/The-MinerGuy/main/docs/gifs/boss-fight.gif" alt="Fighting the Rootwarden, the ancient forest guardian" width="800" height="450"><figcaption data-i18n="gp.clip5">Guardian fight</figcaption></figure>
+        <figure><img loading="lazy" src="https://raw.githubusercontent.com/RaCzKoViC/The-MinerGuy/main/docs/gifs/storm.gif" alt="A Tempest with rain and a lightning strike" width="800" height="450"><figcaption data-i18n="gp.clip6">Thunderstorm</figcaption></figure>
+      </div>
+    </section>
+
+    <section id="screenshots" class="section dark">
+      <h2 data-i18n="shots.title">Screenshots</h2>
+      <p class="sub" data-i18n="shots.sub">Real in-game captures. Click to enlarge.</p>
+      <div class="gallery">
+        <a href="assets/shots/01_spawn.jpg"><img loading="lazy" src="assets/shots/01_spawn.jpg" alt="The starting landscape" width="1280" height="720"></a>
+        <a href="assets/shots/04_cave.jpg"><img loading="lazy" src="assets/shots/04_cave.jpg" alt="Exploring a dark cave" width="1280" height="720"></a>
+        <a href="assets/shots/02_inventory_crafting.jpg"><img loading="lazy" src="assets/shots/02_inventory_crafting.jpg" alt="Inventory and crafting" width="1280" height="720"></a>
+        <a href="assets/shots/09_boss_prism.jpg"><img loading="lazy" src="assets/shots/09_boss_prism.jpg" alt="Fighting the Prism Warden" width="1280" height="720"></a>
+        <a href="assets/shots/50_bloom.jpg"><img loading="lazy" src="assets/shots/50_bloom.jpg" alt="The Bloom biome after the Awakening" width="1280" height="720"></a>
+        <a href="assets/shots/72_reef.jpg"><img loading="lazy" src="assets/shots/72_reef.jpg" alt="A deep ocean reef" width="1280" height="720"></a>
+        <a href="assets/shots/75_leviathan.jpg"><img loading="lazy" src="assets/shots/75_leviathan.jpg" alt="The Leviathan" width="1280" height="720"></a>
+        <a href="assets/shots/22_wiring.jpg"><img loading="lazy" src="assets/shots/22_wiring.jpg" alt="Wiring and automation" width="1280" height="720"></a>
+        <a href="assets/shots/35_lan.jpg"><img loading="lazy" src="assets/shots/35_lan.jpg" alt="Co-op over LAN" width="1280" height="720"></a>
+        <a href="assets/shots/21_sanctuary.jpg"><img loading="lazy" src="assets/shots/21_sanctuary.jpg" alt="A glowing sanctuary" width="1280" height="720"></a>
+        <a href="assets/shots/56_eclipse.jpg"><img loading="lazy" src="assets/shots/56_eclipse.jpg" alt="An eclipse event" width="1280" height="720"></a>
+        <a href="assets/shots/67_editor_hair.jpg"><img loading="lazy" src="assets/shots/67_editor_hair.jpg" alt="The character editor" width="1280" height="720"></a>
+      </div>
+    </section>
+
+    <section id="coop" class="section">
+      <h2 data-i18n="coop.title">Better with friends</h2>
+      <div class="split">
+        <ol class="steps">
+          <li><b data-i18n="coop.s1t">Host</b> <span data-i18n="coop.s1">Load a world, press Esc and choose “Open to LAN” or “Open to Internet” to get an invite code.</span></li>
+          <li><b data-i18n="coop.s2t">Join</b> <span data-i18n="coop.s2">Pick “Multiplayer” in the main menu: choose a LAN game, type an IP address or paste the invite code.</span></li>
+          <li><b data-i18n="coop.s3t">Play</b> <span data-i18n="coop.s3">Up to 8 players share guardian fights, chat and minimap markers. Dropped players reconnect automatically.</span></li>
+        </ol>
+        <img class="framed" loading="lazy" src="assets/shots/35_lan.jpg" alt="Two players in a co-op session" width="1280" height="720">
+      </div>
+      <p class="note" data-i18n="coop.note">Want a world that is always on? Run a headless dedicated server: <code>MinerGuy.exe --server "World name"</code></p>
+    </section>
+
+    <section id="requirements" class="section dark">
+      <h2 data-i18n="req.title">Get started</h2>
+      <div class="grid two">
+        <article class="card">
+          <h3 data-i18n="req.sys">System requirements</h3>
+          <ul class="list">
+            <li data-i18n="req.os">Windows 10 or 11, 64-bit</li>
+            <li data-i18n="req.gpu">GPU with OpenGL 3.x support</li>
+            <li data-i18n="req.disk">About 80 MB of disk space, plus your worlds</li>
+            <li data-i18n="req.net">No .NET install needed — everything is bundled</li>
+            <li data-i18n="req.input">Keyboard + mouse or an XInput controller</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3 data-i18n="inst.title">Install in a minute</h3>
+          <ol class="list">
+            <li data-i18n="inst.1">Download <b>TheMinerGuySetup-&lt;version&gt;.exe</b> with the button above.</li>
+            <li data-i18n="inst.2">Run it — no administrator rights needed.</li>
+            <li data-i18n="inst.3">If SmartScreen says “Windows protected your PC”, click <b>More info → Run anyway</b> (the build is not code-signed yet).</li>
+            <li data-i18n="inst.4">Saves live in <code>%LOCALAPPDATA%\MinerGuy</code> and survive updates.</li>
+          </ol>
+        </article>
+      </div>
+      <div class="cta center">
+        <a class="btn btn-play" href="https://github.com/RaCzKoViC/The-MinerGuy/releases/latest" rel="noopener" data-dl>
+          <span class="btn-icon" aria-hidden="true">▶</span><span><b data-i18n="cta.play">Play / Download</b><small data-i18n="cta.meta2">Latest release on GitHub</small></span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 data-i18n="help.title">Found a bug?</h2>
+      <p class="center-text" data-i18n="help.text">Testers make the game better. If something breaks, open a bug report and attach <code>%LOCALAPPDATA%\MinerGuy\crash.log</code> if the game crashed.</p>
+      <div class="cta center">
+        <a class="btn btn-alt" href="https://github.com/RaCzKoViC/The-MinerGuy/issues/new?template=bug_report.yml" rel="noopener" data-i18n="help.bug">🐞 Report a bug</a>
+        <a class="btn btn-alt" href="https://github.com/RaCzKoViC/The-MinerGuy/issues/new?template=feature_request.yml" rel="noopener" data-i18n="help.idea">💡 Suggest an idea</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p data-i18n="foot.license">© 2026 Maciej Raczkowski (RaCzKoViC). All rights reserved. Free to play for personal, non-commercial use; the source code is not published — see the <a href="https://github.com/RaCzKoViC/The-MinerGuy/blob/main/LICENSE">license</a>.</p>
+    <p data-i18n="foot.tech">Made with C#, .NET 8 and <a href="https://monogame.net/">MonoGame</a>. Third-party components: <a href="https://github.com/RaCzKoViC/The-MinerGuy/blob/main/THIRD-PARTY-NOTICES.md">notices</a>.</p>
+    <p><a href="https://github.com/RaCzKoViC/The-MinerGuy">GitHub</a> · <a href="https://github.com/RaCzKoViC/The-MinerGuy/releases">Releases</a> · <a href="https://github.com/RaCzKoViC/The-MinerGuy/blob/main/CHANGELOG.md" data-i18n="foot.changelog">Changelog</a> · <a href="https://github.com/RaCzKoViC/The-MinerGuy/issues">Issues</a></p>
+  </footer>
+
+  <dialog id="lightbox" aria-label="Screenshot preview"><img alt=""><button type="button" aria-label="Close">✕</button></dialog>
+  <script src="main.js" defer></script>
+</body>
+</html>

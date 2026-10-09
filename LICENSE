@@ -1,0 +1,214 @@
+# The MinerGuy — End User License Agreement
+
+Copyright (c) 2026 Maciej Raczkowski (RaCzKoViC). All rights reserved.
+
+The English and Polish versions below have the same content. If they differ, the Polish
+version prevails.
+
+## English
+
+### 1. What this license covers
+
+This license covers the game The MinerGuy in the form published by the author: the portable
+package (`TheMinerGuy-<version>-win-x64.zip`), the installer (`TheMinerGuySetup-<version>.exe`),
+the updates the game downloads itself, and the program, graphics, sounds, music, texts and
+other content they contain (together, "the Game").
+
+The Game's source code is **not** published and is not covered by this license. No right to the
+source code is granted.
+
+### 2. What you may do
+
+Free of charge, you may:
+
+1. download the Game from its official sources: the Releases page of
+   https://github.com/RaCzKoViC/The-MinerGuy, the website https://raczkovic.github.io/The-MinerGuy/
+   and the game's built-in updater;
+2. install it on computers you use and play it for personal, non-commercial purposes, alone or
+   with others (including hosting co-op games and dedicated servers for your friends or
+   community, as long as you do not charge for access);
+3. keep backup copies of the downloaded files for your own use;
+4. report bugs, send crash logs and suggest ideas in the public repository above;
+5. record, stream and publish videos, screenshots and reviews of your gameplay, including on
+   channels that earn advertising revenue, as long as you do not present yourself as the author
+   or as an official channel of the Game.
+
+### 3. What you may not do
+
+Unless the author gives you written permission first, you may not:
+
+1. share, upload, mirror or otherwise redistribute the Game or its files (the package, the
+   installer or any part of them) — share a link to an official source instead;
+2. sell, rent, lend or sublicense the Game, or use it commercially in any other way not
+   allowed in section 2;
+3. modify the Game's files or publish modified versions, patches or cracks;
+4. decompile, disassemble or reverse engineer the Game, except to the extent that applicable
+   law allows it despite this restriction (for example to achieve interoperability) or that a
+   third-party license in section 5 allows it;
+5. extract and use the Game's graphics, sounds, music, texts, name "The MinerGuy" or logo in
+   other projects, products or services;
+6. remove or change copyright notices, this license or the third-party notices shipped with
+   the Game.
+
+### 4. Feedback
+
+Bug reports, logs, ideas and other feedback you send are voluntary. By sending them you allow
+the author to use them, free of charge and without obligation, to fix and develop the Game.
+Do not include personal data you do not want to be public: issues in the public repository can
+be read by anyone.
+
+### 5. Third-party components
+
+The Game includes third-party components (MonoGame, SDL2, OpenAL Soft, NLayer, NVorbis and the
+.NET runtime). Each of them stays under its own license, listed in `THIRD-PARTY-NOTICES.md` and
+the `licenses` folder shipped with the Game. Nothing in this license limits the rights those
+licenses give you. In particular, OpenAL Soft is shipped as the separate, dynamically loaded
+library `openal.dll` under the GNU Lesser/Library General Public License: you may replace it
+with a modified or newer compatible version, and reverse engineering is permitted to the extent
+needed to debug such a modification.
+
+### 6. Internet connections and data
+
+- When the main menu opens, the Game asks the GitHub API (api.github.com) whether a newer
+  version exists, and downloads it from GitHub when you choose to update. GitHub receives the
+  usual request data (for example your IP address) under its own privacy terms. The check can be
+  turned off in Settings → Game.
+- In co-op, your character name, appearance, position, chat messages and the world you play in
+  are exchanged directly with the other players' computers.
+- The Game does not send telemetry or crash logs anywhere. Logs are written only to
+  `%LOCALAPPDATA%\MinerGuy` on your computer; you decide whether to attach them to a report.
+
+### 7. Updates and changes
+
+The author may release new versions, change or remove content, and change this license for
+future versions. The license shipped with a version applies to that version.
+
+### 8. No warranty
+
+The Game is provided free of charge "as is", without warranty of any kind, to the extent
+permitted by law. It is under development: it may contain bugs, and saved games may be damaged
+or lost — keep backups (the updater makes one before each update).
+
+### 9. Limitation of liability
+
+To the extent permitted by law, the author is not liable for damage resulting from the use of
+the Game or the inability to use it. This does not limit liability that cannot be excluded by
+law, in particular for damage caused intentionally.
+
+### 10. Ending the license
+
+The permissions in section 2 end automatically if you break this license. Sections 4, 8, 9 and
+11 remain in force after that.
+
+### 11. Applicable law and contact
+
+This license is governed by Polish law. This does not take away the protection that mandatory
+law of your country gives you as a consumer. For permissions and questions, open an issue in
+https://github.com/RaCzKoViC/The-MinerGuy or contact the author through
+https://github.com/RaCzKoViC.
+
+## Polski
+
+### 1. Czego dotyczy licencja
+
+Licencja dotyczy gry The MinerGuy w postaci udostępnionej przez autora: paczki przenośnej
+(`TheMinerGuy-<wersja>-win-x64.zip`), instalatora (`TheMinerGuySetup-<wersja>.exe`),
+aktualizacji pobieranych przez samą grę oraz zawartego w nich programu, grafik, dźwięków,
+muzyki, tekstów i innych treści (łącznie „Gra”).
+
+Kod źródłowy Gry **nie** jest udostępniany i nie jest objęty tą licencją. Nie udziela się żadnych
+praw do kodu źródłowego.
+
+### 2. Co wolno
+
+Bezpłatnie wolno:
+
+1. pobrać Grę z oficjalnych źródeł: strony Releases repozytorium
+   https://github.com/RaCzKoViC/The-MinerGuy, strony https://raczkovic.github.io/The-MinerGuy/
+   oraz wbudowanego aktualizatora gry;
+2. zainstalować ją na używanych przez siebie komputerach i grać w nią w celach prywatnych,
+   niekomercyjnych, samodzielnie lub z innymi (w tym prowadzić gry co-op i serwery dedykowane
+   dla znajomych lub społeczności, o ile dostęp nie jest płatny);
+3. przechowywać kopie zapasowe pobranych plików na własny użytek;
+4. zgłaszać błędy, przesyłać logi awarii i proponować pomysły w powyższym publicznym
+   repozytorium;
+5. nagrywać, transmitować i publikować filmy, zrzuty ekranu i recenzje ze swojej rozgrywki,
+   także na kanałach zarabiających na reklamach, o ile nie przedstawiasz się jako autor ani
+   oficjalny kanał Gry.
+
+### 3. Czego nie wolno
+
+Bez wcześniejszej pisemnej zgody autora nie wolno:
+
+1. udostępniać, wgrywać, kopiować na inne serwery ani w inny sposób rozpowszechniać Gry ani jej
+   plików (paczki, instalatora ani ich części) — zamiast tego udostępnij link do oficjalnego
+   źródła;
+2. sprzedawać, wynajmować, użyczać ani sublicencjonować Gry ani wykorzystywać jej komercyjnie w
+   inny sposób niż dozwolony w punkcie 2;
+3. modyfikować plików Gry ani publikować zmodyfikowanych wersji, łatek czy cracków;
+4. dekompilować, deasemblować ani poddawać Gry inżynierii wstecznej, z wyjątkiem zakresu, w
+   jakim mimo tego zakazu pozwala na to obowiązujące prawo (np. w celu uzyskania
+   interoperacyjności) albo licencja komponentu z punktu 5;
+5. wyodrębniać i wykorzystywać grafik, dźwięków, muzyki, tekstów, nazwy „The MinerGuy” ani logo
+   Gry w innych projektach, produktach lub usługach;
+6. usuwać ani zmieniać informacji o prawach autorskich, tej licencji ani informacji o
+   komponentach firm trzecich dołączonych do Gry.
+
+### 4. Opinie i zgłoszenia
+
+Zgłoszenia błędów, logi, pomysły i inne opinie przesyłasz dobrowolnie. Przesyłając je,
+pozwalasz autorowi wykorzystać je bezpłatnie i bez zobowiązań do poprawiania i rozwijania Gry.
+Nie umieszczaj w nich danych osobowych, których nie chcesz upublicznić: zgłoszenia w publicznym
+repozytorium może przeczytać każdy.
+
+### 5. Komponenty firm trzecich
+
+Gra zawiera komponenty firm trzecich (MonoGame, SDL2, OpenAL Soft, NLayer, NVorbis i środowisko
+uruchomieniowe .NET). Każdy z nich pozostaje na własnej licencji, wymienionej w pliku
+`THIRD-PARTY-NOTICES.md` i folderze `licenses` dołączonych do Gry. Nic w tej licencji nie
+ogranicza praw, które dają te licencje. W szczególności OpenAL Soft jest dołączona jako osobna,
+ładowana dynamicznie biblioteka `openal.dll` na licencji GNU Lesser/Library General Public
+License: wolno ją zastąpić zmodyfikowaną lub nowszą zgodną wersją, a inżynieria wsteczna jest
+dozwolona w zakresie potrzebnym do debugowania takiej modyfikacji.
+
+### 6. Połączenia z Internetem i dane
+
+- Po otwarciu menu głównego Gra pyta API GitHuba (api.github.com), czy jest nowsza wersja, i
+  pobiera ją z GitHuba, gdy zdecydujesz się zaktualizować. GitHub otrzymuje zwykłe dane
+  żądania (np. adres IP) na zasadach własnej polityki prywatności. Sprawdzanie można wyłączyć w
+  Ustawienia → Gra.
+- W grze co-op imię i wygląd postaci, jej pozycja, wiadomości czatu oraz świat są przesyłane
+  bezpośrednio między komputerami graczy.
+- Gra nie wysyła telemetrii ani logów awarii. Logi są zapisywane wyłącznie w
+  `%LOCALAPPDATA%\MinerGuy` na Twoim komputerze; to Ty decydujesz, czy dołączyć je do
+  zgłoszenia.
+
+### 7. Aktualizacje i zmiany
+
+Autor może wydawać nowe wersje, zmieniać lub usuwać zawartość oraz zmieniać tę licencję dla
+przyszłych wersji. Do danej wersji stosuje się licencję dołączoną do tej wersji.
+
+### 8. Brak gwarancji
+
+Gra jest udostępniana bezpłatnie „tak jak jest”, bez jakichkolwiek gwarancji, w zakresie
+dozwolonym przez prawo. Gra jest w trakcie tworzenia: może zawierać błędy, a zapisy gry mogą
+zostać uszkodzone lub utracone — rób kopie zapasowe (aktualizator robi ją przed każdą
+aktualizacją).
+
+### 9. Ograniczenie odpowiedzialności
+
+W zakresie dozwolonym przez prawo autor nie odpowiada za szkody wynikłe z korzystania z Gry lub
+niemożności korzystania z niej. Nie ogranicza to odpowiedzialności, której prawo nie pozwala
+wyłączyć, w szczególności za szkody wyrządzone umyślnie.
+
+### 10. Wygaśnięcie licencji
+
+Uprawnienia z punktu 2 wygasają automatycznie w razie naruszenia tej licencji. Punkty 4, 8, 9 i
+11 obowiązują także po jej wygaśnięciu.
+
+### 11. Prawo właściwe i kontakt
+
+Licencja podlega prawu polskiemu. Nie pozbawia to ochrony, jaką konsumentowi dają bezwzględnie
+obowiązujące przepisy kraju jego zamieszkania. W sprawie zgód i pytań otwórz zgłoszenie w
+https://github.com/RaCzKoViC/The-MinerGuy albo skontaktuj się z autorem przez
+https://github.com/RaCzKoViC.

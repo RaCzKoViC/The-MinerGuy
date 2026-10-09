@@ -1,0 +1,57 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    paths:
+      - "site/**"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.event_name == 'pull_request' && github.ref || 'deploy' }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check the site
+        run: |
+          set -euo pipefail
+          test -f site/index.html
+          # every local file referenced by the page must exist
+          grep -oE '(src|href)="[^"#:]+"' site/index.html | sed -E 's/^(src|href)="//; s/"$//' | sort -u | while read -r f; do
+            test -e "site/$f" || { echo "::error file=site/index.html::missing $f"; exit 1; }
+          done
+          grep -oE 'url\("[^"]+"\)' site/style.css | sed -E 's/url\("//; s/"\)//' | while read -r f; do
+            test -e "site/$f" || { echo "::error file=site/style.css::missing $f"; exit 1; }
+          done
+
+      - name: Upload Pages artifact
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

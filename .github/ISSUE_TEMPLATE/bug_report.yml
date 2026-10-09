@@ -1,0 +1,77 @@
+name: 🐞 Bug report
+description: Report a crash, glitch or something that does not work as expected.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing The MinerGuy! Please search the [existing issues](https://github.com/RaCzKoViC/The-MinerGuy/issues) first.
+        You can write in English or Polish. Security problems must not be reported here — see [SECURITY.md](https://github.com/RaCzKoViC/The-MinerGuy/blob/main/SECURITY.md).
+  - type: input
+    id: version
+    attributes:
+      label: Game version
+      description: Shown at the bottom of the main menu and in the release file name.
+      placeholder: "1.28.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: build
+    attributes:
+      label: How do you run the game?
+      options:
+        - Installer (TheMinerGuySetup-*.exe)
+        - Portable zip (TheMinerGuy-*-win-x64.zip)
+        - Built from source
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Game mode
+      options:
+        - Single player
+        - Co-op host
+        - Co-op client (LAN)
+        - Co-op client (Internet invite code)
+        - Dedicated server
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Windows version and GPU
+      placeholder: "Windows 11 23H2, NVIDIA GeForce GTX 1660"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected to happen instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Load a world ...
+        2. Open the crafting panel ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: crash
+    attributes:
+      label: Crash log
+      description: |
+        If the game crashed, paste the contents of the newest `crash-<date>.log` from `%LOCALAPPDATA%\MinerGuy\Logs` here
+        (paste the path into the File Explorer address bar to open the folder).
+      render: text
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots or video
+      description: Drag and drop files here. `F12` takes an in-game screenshot.
