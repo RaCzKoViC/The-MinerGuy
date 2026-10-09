@@ -51,7 +51,7 @@
 
 Wszystko, co widzisz i słyszysz — grafika pixel-art, czcionki, efekty dźwiękowe i muzyka — jest generowane przez kod gry. Repozytorium nie zawiera cudzych assetów.
 
-Aktualna wersja to **1.33.1 — Uczciwe zasady** (koniec z lukami w pieniądzach, bronie działają zgodnie z opisem, fabryki działają przy każdym graczu), oparta na **1.33.0 — Lekka gra**: **presety jakości grafiki** (niska, średnia, wysoka) z rozsądnym wyborem dla Twojej karty przy pierwszym uruchomieniu, dokładny licznik FPS, **brak przycięcia u gospodarza, gdy znajomy dołącza do dużego świata co-op**, i nowe światy, w których woda od początku stoi. Wcześniej: **1.32 — Tam, gdzie skończyłeś** (wczytana gra stawia postać **dokładnie tam, gdzie stała**, przycisk **Kontynuuj** i angielska wersja bez polskich napisów), **1.31.0 — Uczciwa kuźnia** (zużyte narzędzia **naprawiasz zamiast je tracić**) i **1.30.0 — Wspólna fabryka** (w co-opie **całą fabrykę prowadzi gospodarz**). Zobacz [historię wydań](CHANGELOG.md) (po angielsku).
+Aktualna wersja to **1.34.0 — Czytelny świat**: wrogowie widoczni w ciemności (paski zdrowia, błysk oczu), strzałki do strażnika, osadników z zadaniem i miejsca śmierci, na mapie pinezki, znacznik śmierci i odkryte miejsca, podpowiedzi z Twoimi klawiszami lub przyciskami pada, Dziennik z licznikami i celami po skrzydłach, historia komunikatów i strona „Sterowanie”. Wcześniej: **1.33.1 — Uczciwe zasady** (koniec z lukami w pieniądzach, bronie zgodne z opisem, fabryki przy każdym graczu) i **1.33.0 — Lekka gra** (presety grafiki, płynne dołączanie w co-opie). Zobacz [historię wydań](CHANGELOG.md) (po angielsku).
 
 ## ✨ Funkcje
 
