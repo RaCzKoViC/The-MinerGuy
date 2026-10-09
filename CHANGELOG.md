@@ -2,6 +2,22 @@
 
 This file records the major player-facing milestones. Detailed behavior and implementation boundaries are documented in [the game specification](docs/SPECIFICATION.md) and [architecture guide](docs/ARCHITECTURE.md).
 
+## 1.32.0 — Right where you left off
+
+- **A saved game continues exactly where you stopped.** Loading a world puts your character back on the very spot
+  where it stood when the game was saved — facing the same way, with the camera already there — instead of at its
+  bed or the world's spawn. The place is remembered for every world separately on every save (manual save,
+  autosave, leaving to the menu, closing the window, and for co-op guests too). A character saved in a boat is still
+  in its boat.
+- If a block now fills that spot (for example something another player built in co-op), the nearest free spot
+  within 8 blocks is used; only a save from before 1.32, a damaged entry or a different world with the same name
+  start at the bed or spawn as before.
+- **Continue.** The main menu has a new top button, "Continue: <character> — <world>", which loads your last
+  played save in one click. It is hidden when that character or world has been deleted.
+- New tests save and reload the game and check the exact position, the boat, blocked spots, other worlds and old
+  saves; the in-window self-test saves, returns to the menu, clicks Continue and checks the character is back on
+  the same spot.
+
 ## 1.31.0 — Fair forge
 
 - **Repair instead of loss.** Worn tools and weapons can be repaired near the station of their own recipe (hand
